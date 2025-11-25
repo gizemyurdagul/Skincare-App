@@ -20,7 +20,7 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Cilde gün boyu sürecek temel nemi sağlar."
       },
       {
         "step": "5. Göz Kremi",
@@ -57,7 +57,7 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Frankly PDRN Bounce Ball Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Haftanın ilk onarım adımını PDRN ile güçlü bir şekilde başlatıyoruz."
       },
       {
         "step": "5. Göz Kremi",
@@ -67,7 +67,7 @@ const skincareData = {
       {
         "step": "6. Nemlendirici",
         "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde."
+        "notes": "Miktar: Nohut büyüklüğünde. PDRN sonrası cildi sakinleştirmek ve bariyeri desteklemek için."
       }
     ]
   },
@@ -92,7 +92,7 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Beauty of Joseon Arbutin Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Alternatif (Yağlı hissettiğinde): Ola Lab Niacinamide Serum."
       },
       {
         "step": "5. Göz Kremi",
@@ -129,12 +129,12 @@ const skincareData = {
       {
         "step": "4. Tonik",
         "product": "Bibimcos Cica Centella Toner",
-        "notes": "Miktar: Avuca bir miktar."
+        "notes": "Miktar: Avuca bir miktar. Aktif sivilce varsa Edit.B Cica Toner Pad kullanılabilir."
       },
       {
         "step": "5. Serum",
         "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Eksfoliasyon sonrası cildi onarmak ve yoğun nemlendirmek için."
       },
       {
         "step": "6. Göz Kremi",
@@ -169,7 +169,7 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Derma Factory Matrixyl 15% Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Alternatif: Ola Lab Niacinamide (Gözenek sıkılaştırma için)."
       },
       {
         "step": "5. Göz Kremi",
@@ -206,7 +206,7 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Derma Factory Matrixyl 15% Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Peptit odaklı günü akşam da destekleyerek etkiyi güçlendiriyoruz."
       },
       {
         "step": "5. Göz Kremi",
@@ -217,6 +217,11 @@ const skincareData = {
         "step": "6. Nemlendirici",
         "product": "Derma Factory Beta-Sitosterol Krem",
         "notes": "Miktar: Nohut büyüklüğünde."
+      },
+      {
+        "step": "7. Ekstra Bakım (İhtiyaç Halinde)",
+        "product": "Acropass Dark Spot Patch",
+        "notes": "İnatçı lekeler için gece boyunca yapıştırılabilir."
       }
     ]
   },
@@ -231,7 +236,7 @@ const skincareData = {
       {
         "step": "2. Cihaz",
         "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır."
+        "notes": "Aromatica Aloe Vera Gel ile kullanılır. Akşamki retinal öncesi cildi canlandırmak için."
       },
       {
         "step": "3. Tonik/Mist",
@@ -241,7 +246,7 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Akşamki retinal adımına hazırlar."
       },
       {
         "step": "5. Göz Kremi",
@@ -263,7 +268,7 @@ const skincareData = {
       {
         "step": "1. İlk Temizleme",
         "product": "Skin41 Calendula Yağı",
-        "notes": "Miktar: 1-2 pompa."
+        "notes": "Miktar: 1-2 pompa. Retinal günü cildi yormamak için en nazik seçenek."
       },
       {
         "step": "2. İkinci Temizleme",
@@ -273,12 +278,12 @@ const skincareData = {
       {
         "step": "3. Tonik",
         "product": "Bibimcos Cica Centella Toner",
-        "notes": "Miktar: Avuca bir miktar."
+        "notes": "Miktar: Avuca bir miktar. Retinal öncesi cildi yatıştırmak için."
       },
       {
         "step": "4. Serum",
         "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Retinal için nemli bir tampon katman oluşturur."
       },
       {
         "step": "5. Bekleme",
@@ -303,7 +308,7 @@ const skincareData = {
       {
         "step": "9. Nemlendirici",
         "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde."
+        "notes": "Miktar: Nohut büyüklüğünde. Retinalin olası kurutucu etkisini dengelemek için."
       }
     ]
   },
@@ -355,12 +360,12 @@ const skincareData = {
       {
         "step": "3. Tonik",
         "product": "Lancôme Tonique Confort",
-        "notes": "Miktar: Avuca bir miktar."
+        "notes": "Miktar: Avuca bir miktar. Sivilceli ise Edit.B Cica Pad ile silinebilir."
       },
       {
         "step": "4. Serum",
         "product": "Frankly PDRN Bounce Ball Serum",
-        "notes": "Miktar: 2-3 damla. Alternatifler: Estée Lauder ANR, Lancôme Génifique, Yves Rocher Gece Serumu."
+        "notes": "Miktar: 2-3 damla. Retinal sonrası onarım için. Alternatifler: Estée Lauder ANR, Lancôme Génifique, Yves Rocher Gece Serumu."
       },
       {
         "step": "5. Göz Kremi",
@@ -376,21 +381,20 @@ const skincareData = {
   },
   "Cumartesi": {
     "theme": "Leke & Kızarıklık Odaklı Bakım ✨",
-    "morning": [
-      {
+    "morning": [{
         "step": "1. Temizleme",
         "product": "Sadece Su",
-        "notes": "Cildi dinlendiriyoruz."
+        "notes": "Foreo KULLANILMAZ. Eksfoliasyon sonrası cilt dinlendirilir."
       },
       {
         "step": "2. Tonik",
         "product": "Bibimcos Rice Extract Toner",
-        "notes": "Miktar: Avuca bir miktar."
+        "notes": "Miktar: Avuca bir miktar. Cilde aydınlık bir görünüm kazandırır."
       },
       {
         "step": "3. Serum",
         "product": "Beauty of Joseon Arbutin Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Leke görünümüne karşı çalışır."
       },
       {
         "step": "4. Göz Kremi",
@@ -427,12 +431,12 @@ const skincareData = {
       {
         "step": "4. Serum",
         "product": "Frankly PDRN Bounce Ball Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Kızarıklıkları yatıştırır ve onarır."
       },
       {
         "step": "5. Bekleme",
         "product": "-",
-        "notes": "Serumun emilmesi için 5 dakika bekleyin."
+        "notes": "Serumun emilmesi ve cildin sakinleşmesi için 5 dakika bekleyin."
       },
       {
         "step": "6. Göz Kremi",
@@ -442,7 +446,12 @@ const skincareData = {
       {
         "step": "7. Nemlendirici",
         "product": "Derma Factory Tranexamic Acid Krem",
-        "notes": "Miktar: Nohut büyüklüğünde."
+        "notes": "Miktar: Nohut büyüklüğünde. PDRN ile birlikte leke ve kızarıklıklara karşı güçlü bir kombinasyon oluşturur."
+      },
+      {
+        "step": "8. Ekstra Bakım",
+        "product": "Acropass Dark Spot Patch (İhtiyaç Halinde)",
+        "notes": "İnatçı lekeler için gece boyunca yapıştırılabilir."
       }
     ]
   },
@@ -457,12 +466,12 @@ const skincareData = {
       {
         "step": "2. Cihaz",
         "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır."
+        "notes": "Aromatica Aloe Vera Gel ile kullanılır. Haftayı kapatırken rahatlatıcı bir bakım."
       },
       {
         "step": "3. Göz Maskesi",
         "product": "Maxclinic Calendula Eye Patch",
-        "notes": "Opsiyonel!"
+        "notes": "Opsiyonel! Göz çevresini canlandırmak için."
       },
       {
         "step": "4. Tonik/Mist",
@@ -509,12 +518,12 @@ const skincareData = {
       {
         "step": "4. Nem Maskesi (Opsiyonel)",
         "product": "Herhangi bir nemlendirici kağıt maske",
-        "notes": "Opsiyonel!"
+        "notes": "Opsiyonel! Tonikten sonra 15-20 dk bekletilir."
       },
       {
         "step": "5. Serum",
         "product": "Derma Factory Matrixyl 15% Serum",
-        "notes": "Miktar: 2-3 damla."
+        "notes": "Miktar: 2-3 damla. Cildinizin sevdiği bu peptit takviyesiyle haftayı kapatıyoruz."
       },
       {
         "step": "6. Göz Kremi",
@@ -529,34 +538,34 @@ const skincareData = {
       {
         "step": "8. Ekstra Bakım (Opsiyonel)",
         "product": "Medipeel Collagen Wrapping Mask",
-        "notes": "Opsiyonel!"
+        "notes": "Opsiyonel! İhtiyaç halinde ve sadece cildin sakin olduğu onarım günlerinde kullanılabilir. Yeppda Spot gel, ihtiyaç halinde sadece bu tip sakin günlerde kullanılmalıdır."
       }
     ]
   }
 }
 const cycleSyncingData = [
     {
-    "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
-    "strategy": "Yoğun nem, yatıştırma ve onarım.",
-    "skinCondition": "Hormonlar en düşük seviyedeyken cilt daha kuru, hassas ve donuk olabilir.",
-    "adaptation": "Bu dönemde haftalık plandaki <strong>Pazartesi (Onarım), Cuma (Onarım) ve Pazar (Keyif)</strong> günlerini ana rutininiz olarak benimseyin. Retinal (Perşembe) ve asitli pedden (Salı) kaçının."
-  },
-  {
-    "phase": "Faz 2: Foliküler (7-12. Günler)",
-    "strategy": "Koruma, bakım ve aktifleri kullanma.",
-    "skinCondition": "Östrojen yükselir. Cilt kendini yeniler, daha parlak ve dirençlidir.",
-    "adaptation": "Bu, oluşturulan <strong>7 günlük haftalık protokolü harfiyen uygulamak</strong> için en ideal zamandır."
-  },
-  {
-    "phase": "Faz 3: Ovülasyon (13-16. Günler)",
-    "strategy": "Derinlemesine temizlik ve önleyici bakım.",
-    "skinCondition": "Östrojen zirvededir, ancak sebum üretimi artabilir.",
-    "adaptation": "Bu dönemde haftalık rutininizdeki <strong>Salı (Eksfoliasyon) veya Kil Maskesi</strong> uygulamasını mutlaka yapın."
-  },
-  {
-    "phase": "Faz 4: Luteal (17-28. Günler)",
-    "strategy": "Yağ kontrolü ve iltihap önleme.",
-    "skinCondition": "Sebum üretimi artar, hormonal akneler ortaya çıkabilir.",
-    "adaptation": "Bu dönemde <strong>Cumartesi (Leke Odaklı) ve Salı (Eksfoliasyon)</strong> günleri kritik öneme sahiptir. İhtiyaç halinde, sakin günlerde <strong>Yeppda Spot Gel</strong>'i kullanabilirsiniz."
-  }
+        "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
+        "skinCondition": "Hormonlar en düşük seviyedeyken cilt daha kuru, hassas ve donuk olabilir.",
+        "strategy": "Yoğun nem, yatıştırma ve onarım.",
+        "adaptation": "Bu dönemde haftalık plandaki <strong>Pazartesi (Onarım), Cuma (Onarım) ve Pazar (Keyif)</strong> günlerini ana rutininiz olarak benimseyin. Retinal (Perşembe) ve asitli pedden (Salı) kaçının."
+    },
+    {
+        "phase": "Faz 2: Foliküler (7-12. Günler)",
+        "skinCondition": "Östrojen yükselir. Cilt kendini yeniler, daha parlak ve dirençlidir.",
+        "strategy": "Koruma, bakım ve aktifleri kullanma.",
+        "adaptation": "Bu, oluşturulan <strong>7 günlük haftalık protokolü harfiyen uygulamak</strong> için en ideal zamandır. Cildiniz aktif içeriklerden en iyi şekilde faydalanacaktır."
+    },
+    {
+        "phase": "Faz 3: Ovülasyon (13-16. Günler)",
+        "skinCondition": "Östrojen zirvededir, ancak sebum üretimi artabilir.",
+        "strategy": "Derinlemesine temizlik ve önleyici bakım.",
+        "adaptation": "Bu dönemde haftalık rutininizdeki <strong>Salı (Eksfoliasyon) veya Kil Maskesi</strong> uygulamasını mutlaka yapın. Bu, gözenek tıkanıklığını önlemeye yardımcı olur. Artan sebum için <strong>Ola Lab Niacinamide Serum</strong>'u sabah rutinlerine ekleyebilirsiniz."
+    },
+    {
+        "phase": "Faz 4: Luteal (17-28. Günler)",
+        "skinCondition": "Sebum üretimi artar, hormonal akneler ortaya çıkabilir.",
+        "strategy": "Yağ kontrolü ve iltihap önleme.",
+        "adaptation": "Bu dönemde <strong>Cumartesi (Leke Odaklı) ve Salı (Eksfoliasyon)</strong> günleri kritik öneme sahiptir. İhtiyaç halinde, aktif sivilceler için <strong>Yeppda Spot Gel</strong>'i veya <strong>Edit.B Cica Toner Pad</strong>'i kullanabilirsiniz."
+    }
 ]
