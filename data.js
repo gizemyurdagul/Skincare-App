@@ -139,45 +139,28 @@ const skincareData = {
   }
 };
 const cycleSyncingData = [
-          {
-            "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
-            "skinCondition": "Östrojen ve Progesteron hormonları en düşük seviyededir. Bu keskin düşüş, cilt bariyerinin zayıflamasına ve cildin nem tutma kapasitesinin azalmasına yol açar. Cilt daha mat, kuru, hassas ve enerjisiz görünebilir; irritasyon riski en yüksek seviyededir.",
-            "strategy": "Yoğun nemlendirme, yatıştırma ve onarım.",
-            "priorityNotice": {
-              "type": "Warning",
-              "text": "Pazartesi, Cuma ve Pazar rutinleri ana rehberinizdir. Retinal ve TXA gecelerini bu hafta pas geçmek bariyer güvenliği için kritiktir.",
-              "importantDays": ["Pazartesi", "Cuma", "Pazar"]
-            }
-          },
-          {
-            "phase": "Faz 2: Foliküler (7-12. Günler)",
-            "skinCondition": "Östrojen seviyesi yükselmeye başlar, kolajen üretimi doğal olarak tetiklenir ve cilt neme doymaya başlar. Cildin en parlak, en pürüzsüz ve dış etkenlere karşı en dayanıklı olduğu 'glow' evresidir; aktif içerik toleransı zirvededir.",
-            "strategy": "Aktif leke tedavisi ve Foreo ile sıkılaştırma.",
-            "priorityNotice": {
-              "type": "Success",
-              "text": "Haftalık protokolü harfiyen uygulamak için ideal zamandır. Leke ve Retinal adımları bu hafta maksimum verim sağlar.",
-              "importantDays": ["Tüm Hafta"]
-            }
-          },
-          {
-            "phase": "Faz 3: Ovülasyon (13-16. Günler)",
-            "skinCondition": "Östrojen zirve yapar ve ardından Testosteron yükselmeye başlar. Bu hormonal geçiş, sebum üretimini aniden tetikleyebilir ve cildin yağ dengesini bozabilir. Gözenekler genişlemeye ve tıkanmaya (siyah nokta/milie) her zamankinden daha meyillidir.",
-            "strategy": "Derinlemesine temizlik, gözenek yönetimi ve önleyici bakım.",
-            "adaptation": "Gözenek dolmasını önlemek için Salı (Enzim Peeling) adımını asla atlamayın.",
-            "priorityNotice": {
-              "type": "Info",
-              "text": "Kil maskesi (Bibimcos) uygulamasını mutlaka yapın. Sebum artışı hissedilirse Olalab Serum'u sabah rutinine ekleyebilirsiniz.",
-              "importantDays": ["Salı", "Kil Maskesi Günü"]
-            }
-          },
-          {
-            "phase": "Faz 4: Luteal (17-28. Günler)",
-            "skinCondition": "Progesteron yükselir, sebum üretimi maksimuma çıkar. Gözenekler genişleyebilir ve hormonal akneler (özellikle çene/boyun bölgesinde) ortaya çıkabilir. Cilt daha hassas, iltihaba meyilli ve şişkinlik (ödem) tutmaya yatkındır.",
-            "strategy": "Yağ kontrolü, iltihap önleme ve sivilce baskılama.",
-            "priorityNotice": {
-              "type": "Warning",
-              "text": "Cumartesi (Leke Odaklı) ve Salı (Eksfoliasyon) günleri kritik öneme sahiptir. Sivilce sinyalleri için Yeppda Spot Gel ve Olalab Serum desteği alın.",
-              "importantDays": ["Cumartesi", "Salı"]
-            }
-          }
-        ]
+  {
+    "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
+    "skinCondition": "Östrojen ve Progesteron hormonları en düşük seviyededir. Bu keskin düşüş, cilt bariyerinin zayıflamasına ve cildin nem tutma kapasitesinin azalmasına yol açar. Cilt daha mat, kuru, hassas ve enerjisiz görünebilir; irritasyon riski en yüksek seviyededir.",
+    "strategy": "Yoğun nemlendirme, yatıştırma ve onarım.",
+    "adaptation": "Bu dönemde <strong>Pazartesi, Cuma ve Pazar</strong> rutinleri ana rehberinizdir. Bariyer sağlığınız için <strong>Retinal (Perşembe) ve TXA (Cumartesi)</strong> gecelerini bu hafta pas geçmek veya sadece sandviç tekniğiyle çok kısıtlı uygulamak bariyer güvenliği için kritiktir."
+  },
+  {
+    "phase": "Faz 2: Foliküler (7-12. Günler)",
+    "skinCondition": "Östrojen seviyesi yükselmeye başlar, kolajen üretimi doğal olarak tetiklenir ve cilt neme doymaya başlar. Cildin en parlak, en pürüzsüz ve dış etkenlere karşı en dayanıklı olduğu 'glow' evresidir; aktif içerik toleransı zirvededir.",
+    "strategy": "Aktif leke tedavisi ve Foreo ile sıkılaştırma.",
+    "adaptation": "Bu, oluşturulan <strong>7 günlük haftalık protokolü harfiyen uygulamak</strong> için en ideal zamandır. Cildinizin toleransı yüksek olduğu için <strong>Retinal ve Leke (TXA)</strong> adımları bu hafta lekeler üzerinde maksimum verim sağlar."
+  },
+  {
+    "phase": "Faz 3: Ovülasyon (13-16. Günler)",
+    "skinCondition": "Östrojen zirve yapar ve ardından Testosteron yükselmeye başlar. Bu hormonal geçiş, sebum üretimini aniden tetikleyebilir ve cildin yağ dengesini bozabilir. Gözenekler genişlemeye ve tıkanmaya (siyah nokta/milie) her zamankinden daha meyillidir.",
+    "strategy": "Derinlemesine temizlik, gözenek yönetimi ve önleyici bakım.",
+    "adaptation": "Gözenek dolmasını önlemek için <strong>Salı (Enzim Peeling)</strong> adımını veya <strong>Kil Maskesi (Bibimcos)</strong> uygulamasını mutlaka yapın. Artan sebumun parlamaya ve akneye dönmemesi için <strong>Olalab Serum</strong>'u sabah rutinlerine destek olarak ekleyebilirsiniz."
+  },
+  {
+    "phase": "Faz 4: Luteal (17-28. Günler)",
+    "skinCondition": "Progesteron yükselir, sebum üretimi maksimuma çıkar. Gözenekler genişleyebilir ve hormonal akneler (özellikle çene/boyun bölgesinde) ortaya çıkabilir. Cilt daha hassas, iltihaba meyilli ve şişkinlik (ödem) tutmaya yatkındır.",
+    "strategy": "Yağ kontrolü, iltihap önleme ve sivilce baskılama.",
+    "adaptation": "Bu dönemde <strong>Cumartesi (Leke Odaklı) ve Salı (Eksfoliasyon)</strong> günleri kritik öneme sahiptir. İhtiyaç halinde, aktif sivilce sinyalleri için <strong>Yeppda Spot Gel</strong>'i veya sakinleştirici <strong>Olalab Serum</strong> desteğini alabilirsiniz."
+  }
+]
