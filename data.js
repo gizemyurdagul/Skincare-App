@@ -2,570 +2,182 @@ const skincareData = {
   "Pazartesi": {
     "theme": "Onarım & Bariyer Güçlendirme 🛡️",
     "morning": [
-      {
-        "step": "1. Temizleme",
-        "product": "Sadece Su veya Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "2. Cihaz",
-        "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır."
-      },
-      {
-        "step": "3. Tonik/Mist",
-        "product": "Cosrx Comfort Ceramide Mist",
-        "notes": "Miktar: Yüze 2-3 fıs."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla. Cilde gün boyu sürecek temel nemi sağlar."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Mercimek büyüklüğünde."
-      },
-      {
-        "step": "7. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+      { "step": "1", "product": "Round Lab Pine Calming Cica Cleanser", "notes": "Fındık büyüklüğünde. Cica içeriğiyle gece boyu oluşan hassasiyeti yatıştırır." },
+      { "step": "2", "product": "Foreo BEAR™ 2", "notes": "Aromatica Aloe Vera Gel ile. Mikro akımı iletmek için jeli cömertçe sürün, işlem sonrası durulayın." },
+      { "step": "3", "product": "Cosrx Comfort Ceramide Mist", "notes": "Yüze 2-3 fıs. Seramidler, bariyerinizi güne hazırlarken nem kaybını önler." },
+      { "step": "4", "product": "Bibimcos Cica Centella Toner", "notes": "Avuca bir miktar, tampon hareketlerle uygulayın." },
+      { "step": "5", "product": "Frankly Heyday Pantenol Serumu", "notes": "2-3 damla. $3\\%$ Pantenol, kızarıklığı baskılamak için en güvenli müttefikinizdir." },
+      { "step": "6", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "7", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Mercimek büyüklüğünde. Yağlı his bırakmadan bariyeri mühürler." },
+      { "step": "8", "product": "Dr. Korea Güneş Kremi", "notes": "2 parmak kuralı. Leke tedavisi görüyorsanız bu adım opsiyonel değil, mecburidir." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Skin41 Calendula Yağı",
-        "notes": "Miktar: 1-2 pompa."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Lancôme Tonique Confort",
-        "notes": "Miktar: Avuca bir miktar. Alternatifler: Village 11, Maxclinic Toner."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Frankly PDRN Bounce Ball Serum",
-        "notes": "Miktar: 2-3 damla. Haftanın ilk onarım adımını PDRN ile güçlü bir şekilde başlatıyoruz."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde. PDRN sonrası cildi sakinleştirmek ve bariyeri desteklemek için."
-      }
+      { "step": "1", "product": "Skin41 Calendula Yağı", "notes": "1-2 pompa. Güneş kremini çözmek için kuru yüze 1 dakika nazik masaj yapın." },
+      { "step": "2", "product": "Round Lab Pine Calming Cica Cleanser", "notes": "Yağ kalıntısını arındırmak için suyla köpürterek uygulayın." },
+      { "step": "3", "product": "Lunova Milk Therapy", "notes": "Süt proteinleri, cildin pH dengesini hızla geri kazandırır." },
+      { "step": "4", "product": "Estée Lauder Advanced Night Repair (ANR)", "notes": "2-3 damla. Gece boyu hücresel onarımı tetikler." },
+      { "step": "5", "product": "Elensilia Collagen 80 Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Skin Barrier Krem", "notes": "Nohut büyüklüğünde. $59\\%$ Panthenol içeriğiyle 'Reset' gecesinin ana kahramanıdır." }
     ]
   },
   "Salı": {
-    "theme": "Eksfoliasyon & Besleme 🧪",
+    "theme": "Eksfoliasyon (Nazik Yenileme) 🧪",
     "morning": [
-      {
-        "step": "1. Temizleme",
-        "product": "Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "2. Cihaz",
-        "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Bibimcos Cica Centella Toner",
-        "notes": "Miktar: Avuca bir miktar."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Beauty of Joseon Arbutin Serum",
-        "notes": "Miktar: 2-3 damla. Alternatif (Yağlı hissettiğinde): Ola Lab Niacinamide Serum."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Elensilia Collagen Intensive Cream",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      },
-      {
-        "step": "7. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+      { "step": "1", "product": "Round Lab Pine Calming Cica Cleanser", "notes": "Fındık büyüklüğünde." },
+      { "step": "2", "product": "Foreo BEAR™ 2", "notes": "Aromatica Aloe Vera Gel ile." },
+      { "step": "3", "product": "Bibimcos Rice Extract Toner", "notes": "Aydınlatıcı pirinç suyu içeriğiyle leke açma sürecini sabah başlatır." },
+      { "step": "4", "product": "Beauty of Joseon Arbutin Serum", "notes": "Alpha Arbutin, sivilce lekelerinin koyulaşmasını engelleyen en etkili baskılayıcıdır." },
+      { "step": "5", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Nohut büyüklüğünde." },
+      { "step": "7", "product": "Holika Holika Aloe Sun Cream", "notes": "2 parmak kuralı." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Mamonde Mint Cleansing Balm",
-        "notes": "Miktar: Ceviz büyüklüğünde."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Eksfoliasyon",
-        "product": "Frankly Closer Pore Tightening Pad",
-        "notes": "Miktar: 1 adet ped. Alternatif (2 haftada bir): Kremi Toner Pad."
-      },
-      {
-        "step": "4. Tonik",
-        "product": "Bibimcos Cica Centella Toner",
-        "notes": "Miktar: Avuca bir miktar. Aktif sivilce varsa Edit.B Cica Toner Pad kullanılabilir."
-      },
-      {
-        "step": "5. Serum",
-        "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla. Eksfoliasyon sonrası cildi onarmak ve yoğun nemlendirmek için."
-      },
-      {
-        "step": "6. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "7. Nemlendirici",
-        "product": "Lancôme Rénergie H.P.N. 300-Peptide Cream",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      }
+      { "step": "1", "product": "Skin401 Temizleme Yağı", "notes": "1-2 pompa." },
+      { "step": "2", "product": "Bibimcos Enzyme Powder Wash", "notes": "Haftalık 1 kez. Avucunuzda suyla iyice köpürtün; iri pütür kalmadığından emin olun." },
+      { "step": "3", "product": "Bibimcos Rice Extract Toner", "notes": "Peeling sonrası cildi yatıştırmak için tampon hareketlerle 2 kat sürebilirsiniz." },
+      { "step": "4", "product": "Frankly Heyday Pantenol Serumu", "notes": "Eksfoliasyon sonrası cildi neme doyurmak ve bariyeri sakinleştirmek için şarttır." },
+      { "step": "5", "product": "Elensilia Collagen 80 Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Skin Barrier Krem", "notes": "Nohut büyüklüğünde. Ölü deri sonrası bariyer koruması." }
     ]
   },
   "Çarşamba": {
-    "theme": "Peptit Odaklı Bakım 🧬",
+    "theme": "Onarım ve Besleme 🧬",
     "morning": [
-      {
-        "step": "1. Temizleme",
-        "product": "Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "2. Cihaz",
-        "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Bibimcos Cica Centella Toner",
-        "notes": "Miktar: Avuca bir miktar."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Derma Factory Matrixyl 15% Serum",
-        "notes": "Miktar: 2-3 damla. Alternatif: Ola Lab Niacinamide (Gözenek sıkılaştırma için)."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Elensilia Collagen Intensive Cream",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      },
-      {
-        "step": "7. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+      { "step": "1", "product": "Round Lab Pine Calming Cica Cleanser", "notes": "Fındık büyüklüğünde." },
+      { "step": "2", "product": "Foreo BEAR™ 2", "notes": "Aloe gel ile." },
+      { "step": "3", "product": "Lunova Milk Therapy", "notes": "Nemlendirici baz." },
+      { "step": "4", "product": "Bioderma Matricium veya Frankly PDRN", "notes": "Hücre yenileyici destek." },
+      { "step": "5", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Nohut büyüklüğünde." },
+      { "step": "7", "product": "Dr. Korea Güneş Kremi", "notes": "2 parmak kuralı." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Mamonde Mint Cleansing Balm",
-        "notes": "Miktar: Ceviz büyüklüğünde."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Maxclinic Melatonin Toner",
-        "notes": "Miktar: Avuca bir miktar."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Derma Factory Matrixyl 15% Serum",
-        "notes": "Miktar: 2-3 damla. Peptit odaklı günü akşam da destekleyerek etkiyi güçlendiriyoruz."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      },
-      {
-        "step": "7. Ekstra Bakım (İhtiyaç Halinde)",
-        "product": "Acropass Dark Spot Patch",
-        "notes": "İnatçı lekeler için gece boyunca yapıştırılabilir."
-      }
+      { "step": "1", "product": "Celimax Temizleme Yağı", "notes": "Makyaj ve kirden arındırın." },
+      { "step": "2", "product": "Round Lab Pine Calming Cica Cleanser", "notes": "Derin temizlik." },
+      { "step": "3", "product": "Village 11 Factory Toner", "notes": "Dengeleyici." },
+      { "step": "4", "product": "Derma Factory Matrixyl veya Estée Lauder ANR", "notes": "Peptit veya onarım odaklı." },
+      { "step": "5", "product": "Elensilia Collagen 80 Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Skin Barrier Krem", "notes": "Bariyer koruyucu." }
     ]
   },
   "Perşembe": {
-    "theme": "Cilt Yenileme (Retinal Günü) 🚀",
+    "theme": "Cilt Yenileme (Retinal Gecesi) 🚀",
     "morning": [
-      {
-        "step": "1. Temizleme",
-        "product": "Sadece Su",
-        "notes": ""
-      },
-      {
-        "step": "2. Cihaz",
-        "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır. Akşamki retinal öncesi cildi canlandırmak için."
-      },
-      {
-        "step": "3. Tonik/Mist",
-        "product": "Collachiol Cream Shot Ampoule Mist",
-        "notes": "Miktar: Yüze 2-3 fıs."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla. Akşamki retinal adımına hazırlar."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Mercimek büyüklüğünde."
-      },
-      {
-        "step": "7. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+      { "step": "1", "product": "Sadece Su", "notes": "Akşamki ağır yenilenme süreci öncesi cildi tamamen dinlendiriyoruz." },
+      { "step": "2", "product": "Foreo BEAR™ 2", "notes": "Aloe gel ile." },
+      { "step": "3", "product": "Bibimcos Cica Centella Toner", "notes": "Yatıştırıcı etki." },
+      { "step": "4", "product": "Frankly Heyday Pantenol Serumu", "notes": "Retinal gecesine hazırlık için cildi nem kapasitesinin zirvesine çıkarır." },
+      { "step": "5", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Mercimek büyüklüğünde." },
+      { "step": "7", "product": "Holika Holika Aloe Sun Cream", "notes": "2 parmak kuralı." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Skin41 Calendula Yağı",
-        "notes": "Miktar: 1-2 pompa. Retinal günü cildi yormamak için en nazik seçenek."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Round Lab Pine Calming Cica Cleanser",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Bibimcos Cica Centella Toner",
-        "notes": "Miktar: Avuca bir miktar. Retinal öncesi cildi yatıştırmak için."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla. Retinal için nemli bir tampon katman oluşturur."
-      },
-      {
-        "step": "5. Bekleme",
-        "product": "-",
-        "notes": "Serumun emilmesi için 5-10 dakika bekleyin."
-      },
-      {
-        "step": "6. Aktif Ürün",
-        "product": "Derma Factory Retinal Cica Ampoule",
-        "notes": "Miktar: 1 pompa veya bezelye tanesi kadar."
-      },
-      {
-        "step": "7. Bekleme",
-        "product": "-",
-        "notes": "Öneri: Bu 15-20 dakikalık sürede dudaklarınıza balm sürebilirsiniz."
-      },
-      {
-        "step": "8. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "9. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde. Retinalin olası kurutucu etkisini dengelemek için."
-      }
+      { "step": "1", "product": "Çift Aşama Temizlik (Yağ + Jel)", "notes": "Cildi tamamen arındırın." },
+      { "step": "2", "product": "Avene Eau Thermale + Bibimcos Cica Toner", "notes": "Retinal öncesi sakinleştirici zemin." },
+      { "step": "3 (Sandviç Kat 1)", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "İnce bir tabaka. Retinalin direkt temasını engelleyerek irritasyon riskini minimize eder." },
+      { "step": "4 (Aktif)", "product": "Derma Factory Retinal Cica Ampoule", "notes": "Bezelye büyüklüğünde. Göz ve dudak kenarlarına gelmemesine dikkat edin." },
+      { "step": "5 (Sandviç Kat 2)", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Aktifi hapsetmek için son mühür." }
     ]
   },
   "Cuma": {
     "theme": "Retinal Sonrası Onarım 🩹",
     "morning": [
-      {
-        "step": "1. Temizleme",
-        "product": "Sadece Su",
-        "notes": "Foreo KULLANILMAZ. Retinal sonrası cilt dinlendirilir."
-      },
-      {
-        "step": "2. Tonik/Mist",
-        "product": "Cosrx Comfort Ceramide Mist",
-        "notes": "Miktar: Yüze 2-3 fıs."
-      },
-      {
-        "step": "3. Serum",
-        "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 3-4 damla."
-      },
-      {
-        "step": "4. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "5. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      },
-      {
-        "step": "6. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+      { "step": "1", "product": "Sadece Su", "notes": "Foreo KULLANILMAZ." },
+      { "step": "2", "product": "Cosrx Comfort Ceramide Mist", "notes": "Bariyer desteği." },
+      { "step": "3", "product": "Bioderma Matricium (Ana Ürün)", "notes": "İhtiyaca göre Frankly PDRN veya Frankly Heyday ile dönüşümlü kullanılabilir." },
+      { "step": "4", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "5", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Nohut büyüklüğünde." },
+      { "step": "6", "product": "Dr. Korea veya Holika Holika", "notes": "Güneş koruması şart." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Skin41 Calendula Yağı",
-        "notes": "Miktar: 1-2 pompa."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Skin401 Pirinç Özlü Jel",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Lancôme Tonique Confort",
-        "notes": "Miktar: Avuca bir miktar. Sivilceli ise Edit.B Cica Pad ile silinebilir."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Frankly PDRN Bounce Ball Serum",
-        "notes": "Miktar: 2-3 damla. Retinal sonrası onarım için. Alternatifler: Estée Lauder ANR, Lancôme Génifique, Yves Rocher Gece Serumu."
-      },
-      {
-        "step": "5. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "6. Nemlendirici",
-        "product": "Lancôme Rénergie H.P.N. 300-Peptide Cream",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      }
+      { "step": "1", "product": "Skin41 Calendula Yağı", "notes": "1-2 pompa." },
+      { "step": "2", "product": "Skin401 Pirinç Özlü Jel", "notes": "Nazik temizlik." },
+      { "step": "3", "product": "Bibimcos Cica Centella Toner", "notes": "Yatıştırıcı." },
+      { "step": "4", "product": "Frankly PDRN veya Estée Lauder ANR", "notes": "Derinlemesine onarım." },
+      { "step": "5", "product": "Elensilia Collagen 80 Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Beta (veya Avene Cicalfate)", "notes": "Yoğun onarım tabakası." }
     ]
   },
   "Cumartesi": {
     "theme": "Leke & Kızarıklık Odaklı Bakım ✨",
-    "morning": [{
-        "step": "1. Temizleme",
-        "product": "Sadece Su",
-        "notes": "Foreo KULLANILMAZ. Eksfoliasyon sonrası cilt dinlendirilir."
-      },
-      {
-        "step": "2. Tonik",
-        "product": "Bibimcos Rice Extract Toner",
-        "notes": "Miktar: Avuca bir miktar. Cilde aydınlık bir görünüm kazandırır."
-      },
-      {
-        "step": "3. Serum",
-        "product": "Beauty of Joseon Arbutin Serum",
-        "notes": "Miktar: 2-3 damla. Leke görünümüne karşı çalışır."
-      },
-      {
-        "step": "4. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "5. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Mercimek büyüklüğünde."
-      },
-      {
-        "step": "6. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+    "morning": [
+      { "step": "1", "product": "Sadece Su", "notes": "Cildi dinlendiriyoruz." },
+      { "step": "2", "product": "Bibimcos Rice Extract Toner", "notes": "Avuca bir miktar." },
+      { "step": "3", "product": "Beauty of Joseon Arbutin Serum", "notes": "Hafta sonu güneşine çıkmadan önce leke savunma hattını kurun." },
+      { "step": "4", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "5", "product": "Derma Factory Skin Barrier Krem", "notes": "Bariyer desteği." },
+      { "step": "6", "product": "Holika Holika Aloe Sun Cream", "notes": "Hassasiyet karşıtı koruma." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Skin41 Calendula Yağı",
-        "notes": "Miktar: 1-2 pompa."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Skin401 Pirinç Özlü Jel",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Bibimcos Rice Extract Toner",
-        "notes": "Miktar: Avuca bir miktar."
-      },
-      {
-        "step": "4. Serum",
-        "product": "Frankly PDRN Bounce Ball Serum",
-        "notes": "Miktar: 2-3 damla. Kızarıklıkları yatıştırır ve onarır."
-      },
-      {
-        "step": "5. Bekleme",
-        "product": "-",
-        "notes": "Serumun emilmesi ve cildin sakinleşmesi için 5 dakika bekleyin."
-      },
-      {
-        "step": "6. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "7. Nemlendirici",
-        "product": "Derma Factory Tranexamic Acid Krem",
-        "notes": "Miktar: Nohut büyüklüğünde. PDRN ile birlikte leke ve kızarıklıklara karşı güçlü bir kombinasyon oluşturur."
-      },
-      {
-        "step": "8. Ekstra Bakım",
-        "product": "Acropass Dark Spot Patch (İhtiyaç Halinde)",
-        "notes": "İnatçı lekeler için gece boyunca yapıştırılabilir."
-      }
+      { "step": "1", "product": "Yağ Bazlı + Pirinç Özlü Jel", "notes": "Temiz içerikli arınma." },
+      { "step": "2", "product": "Bibimcos Rice Extract Toner", "notes": "Yatıştırıcı." },
+      { "step": "3", "product": "Frankly PDRN Bounce Ball Serum", "notes": "PDRN (Somon DNA), leke izlerinin altındaki doku hasarını onarır." },
+      { "step": "4", "product": "Derma Factory Tranexamic Acid Krem", "notes": "$6\\%$ oranındaki TXA, sivilce lekeleri üzerinde nokta atışı yapar." },
+      { "step": "5", "product": "Mist veya Derma Factory Beta Krem", "notes": "Opsiyonel nem katmanı." }
     ]
   },
   "Pazar": {
-    "theme": "Onarım & Keyif 💆‍♀️",
+    "theme": "Haftalık Arınma & Keyif 💆‍♀️",
     "morning": [
-      {
-        "step": "1. Temizleme",
-        "product": "Sadece Su",
-        "notes": "Cildi dinlendirmek için."
-      },
-      {
-        "step": "2. Cihaz",
-        "product": "Foreo BEAR™ 2",
-        "notes": "Aromatica Aloe Vera Gel ile kullanılır. Haftayı kapatırken rahatlatıcı bir bakım."
-      },
-      {
-        "step": "3. Göz Maskesi",
-        "product": "Maxclinic Calendula Eye Patch",
-        "notes": "Opsiyonel! Göz çevresini canlandırmak için."
-      },
-      {
-        "step": "4. Tonik/Mist",
-        "product": "Avene Termal Su",
-        "notes": "Miktar: Yüze 2-3 fıs."
-      },
-      {
-        "step": "5. Serum",
-        "product": "Frankly Heyday Pantenol Serumu",
-        "notes": "Miktar: 2-3 damla."
-      },
-      {
-        "step": "6. Göz Kremi",
-        "product": "Deoproce Super Berry Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "7. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Mercimek büyüklüğünde."
-      },
-      {
-        "step": "8. Güneş Kremi",
-        "product": "Dr. Korea veya Wiwify Güneş Kremi",
-        "notes": "Miktar: 2 parmak kuralı."
-      }
+      { "step": "1", "product": "Sadece Su", "notes": "Huzurlu bir sabah." },
+      { "step": "2", "product": "Foreo BEAR™ 2", "notes": "Aloe gel ile uygulama." },
+      { "step": "3", "product": "Luvum Hyalüronik Ped", "notes": "Yoğun nemlendirme için ped maske." },
+      { "step": "4", "product": "Avene Termal Su", "notes": "Yüze serinlik ve mineral." },
+      { "step": "5", "product": "Estée Lauder ANR", "notes": "Canlandırıcı etki." },
+      { "step": "6", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "7", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Nohut büyüklüğünde." },
+      { "step": "8", "product": "Dr. Korea veya Holika Holika", "notes": "2 parmak kuralı." }
     ],
     "evening": [
-      {
-        "step": "1. İlk Temizleme",
-        "product": "Mamonde Mint Cleansing Balm",
-        "notes": "Miktar: Ceviz büyüklüğünde."
-      },
-      {
-        "step": "2. İkinci Temizleme",
-        "product": "Skin401 Pirinç Özlü Jel",
-        "notes": "Miktar: Fındık büyüklüğünde."
-      },
-      {
-        "step": "3. Tonik",
-        "product": "Maxclinic Melatonin Toner",
-        "notes": "Miktar: Avuca bir miktar."
-      },
-      {
-        "step": "4. Nem Maskesi (Opsiyonel)",
-        "product": "Herhangi bir nemlendirici kağıt maske",
-        "notes": "Opsiyonel! Tonikten sonra 15-20 dk bekletilir."
-      },
-      {
-        "step": "5. Serum",
-        "product": "Derma Factory Matrixyl 15% Serum",
-        "notes": "Miktar: 2-3 damla. Cildinizin sevdiği bu peptit takviyesiyle haftayı kapatıyoruz."
-      },
-      {
-        "step": "6. Göz Kremi",
-        "product": "Elensilia Collagen 80 Göz Kremi",
-        "notes": "Miktar: Her göz için yarım mercimek tanesi."
-      },
-      {
-        "step": "7. Nemlendirici",
-        "product": "Derma Factory Beta-Sitosterol Krem",
-        "notes": "Miktar: Nohut büyüklüğünde."
-      },
-      {
-        "step": "8. Ekstra Bakım (Opsiyonel)",
-        "product": "Medipeel Collagen Wrapping Mask",
-        "notes": "Opsiyonel! İhtiyaç halinde ve sadece cildin sakin olduğu onarım günlerinde kullanılabilir. Yeppda Spot gel, ihtiyaç halinde sadece bu tip sakin günlerde kullanılmalıdır."
-      }
+      { "step": "1", "product": "Mamonde Mint Cleansing Balm", "notes": "Ferahlatıcı temizlik." },
+      { "step": "2", "product": "Skin401 Pirinç Özlü Jel", "notes": "Yumuşak bitiş." },
+      { "step": "3", "product": "Luvum Milk Therapy", "notes": "Yumuşacık bir cilt dokusu için." },
+      { "step": "4", "product": "Estée Lauder Advanced Night Repair", "notes": "2-3 damla." },
+      { "step": "5", "product": "Elensilia Collagen 80 Göz Kremi", "notes": "Yarım mercimek tanesi." },
+      { "step": "6", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Gece onarımı." }
     ]
   }
-}
+};
 const cycleSyncingData = [
-    {
-        "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
-        "skinCondition": "Hormonlar en düşük seviyedeyken cilt daha kuru, hassas ve donuk olabilir.",
-        "strategy": "Yoğun nem, yatıştırma ve onarım.",
-        "adaptation": "Bu dönemde haftalık plandaki <strong>Pazartesi (Onarım), Cuma (Onarım) ve Pazar (Keyif)</strong> günlerini ana rutininiz olarak benimseyin. Retinal (Perşembe) ve asitli pedden (Salı) kaçının."
-    },
-    {
-        "phase": "Faz 2: Foliküler (7-12. Günler)",
-        "skinCondition": "Östrojen yükselir. Cilt kendini yeniler, daha parlak ve dirençlidir.",
-        "strategy": "Koruma, bakım ve aktifleri kullanma.",
-        "adaptation": "Bu, oluşturulan <strong>7 günlük haftalık protokolü harfiyen uygulamak</strong> için en ideal zamandır. Cildiniz aktif içeriklerden en iyi şekilde faydalanacaktır."
-    },
-    {
-        "phase": "Faz 3: Ovülasyon (13-16. Günler)",
-        "skinCondition": "Östrojen zirvededir, ancak sebum üretimi artabilir.",
-        "strategy": "Derinlemesine temizlik ve önleyici bakım.",
-        "adaptation": "Bu dönemde haftalık rutininizdeki <strong>Salı (Eksfoliasyon) veya Kil Maskesi</strong> uygulamasını mutlaka yapın. Bu, gözenek tıkanıklığını önlemeye yardımcı olur. Artan sebum için <strong>Ola Lab Niacinamide Serum</strong>'u sabah rutinlerine ekleyebilirsiniz."
-    },
-    {
-        "phase": "Faz 4: Luteal (17-28. Günler)",
-        "skinCondition": "Sebum üretimi artar, hormonal akneler ortaya çıkabilir.",
-        "strategy": "Yağ kontrolü ve iltihap önleme.",
-        "adaptation": "Bu dönemde <strong>Cumartesi (Leke Odaklı) ve Salı (Eksfoliasyon)</strong> günleri kritik öneme sahiptir. İhtiyaç halinde, aktif sivilceler için <strong>Yeppda Spot Gel</strong>'i veya <strong>Edit.B Cica Toner Pad</strong>'i kullanabilirsiniz."
-    }
-]
+          {
+            "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
+            "skinCondition": "Östrojen ve Progesteron hormonları en düşük seviyededir. Bu keskin düşüş, cilt bariyerinin zayıflamasına ve cildin nem tutma kapasitesinin azalmasına yol açar. Cilt daha mat, kuru, hassas ve enerjisiz görünebilir; irritasyon riski en yüksek seviyededir.",
+            "strategy": "Yoğun nemlendirme, yatıştırma ve onarım.",
+            "priorityNotice": {
+              "type": "Warning",
+              "text": "Pazartesi, Cuma ve Pazar rutinleri ana rehberinizdir. Retinal ve TXA gecelerini bu hafta pas geçmek bariyer güvenliği için kritiktir.",
+              "importantDays": ["Pazartesi", "Cuma", "Pazar"]
+            }
+          },
+          {
+            "phase": "Faz 2: Foliküler (7-12. Günler)",
+            "skinCondition": "Östrojen seviyesi yükselmeye başlar, kolajen üretimi doğal olarak tetiklenir ve cilt neme doymaya başlar. Cildin en parlak, en pürüzsüz ve dış etkenlere karşı en dayanıklı olduğu 'glow' evresidir; aktif içerik toleransı zirvededir.",
+            "strategy": "Aktif leke tedavisi ve Foreo ile sıkılaştırma.",
+            "priorityNotice": {
+              "type": "Success",
+              "text": "Haftalık protokolü harfiyen uygulamak için ideal zamandır. Leke ve Retinal adımları bu hafta maksimum verim sağlar.",
+              "importantDays": ["Tüm Hafta"]
+            }
+          },
+          {
+            "phase": "Faz 3: Ovülasyon (13-16. Günler)",
+            "skinCondition": "Östrojen zirve yapar ve ardından Testosteron yükselmeye başlar. Bu hormonal geçiş, sebum üretimini aniden tetikleyebilir ve cildin yağ dengesini bozabilir. Gözenekler genişlemeye ve tıkanmaya (siyah nokta/milie) her zamankinden daha meyillidir.",
+            "strategy": "Derinlemesine temizlik, gözenek yönetimi ve önleyici bakım.",
+            "adaptation": "Gözenek dolmasını önlemek için Salı (Enzim Peeling) adımını asla atlamayın.",
+            "priorityNotice": {
+              "type": "Info",
+              "text": "Kil maskesi (Bibimcos) uygulamasını mutlaka yapın. Sebum artışı hissedilirse Olalab Serum'u sabah rutinine ekleyebilirsiniz.",
+              "importantDays": ["Salı", "Kil Maskesi Günü"]
+            }
+          },
+          {
+            "phase": "Faz 4: Luteal (17-28. Günler)",
+            "skinCondition": "Progesteron yükselir, sebum üretimi maksimuma çıkar. Gözenekler genişleyebilir ve hormonal akneler (özellikle çene/boyun bölgesinde) ortaya çıkabilir. Cilt daha hassas, iltihaba meyilli ve şişkinlik (ödem) tutmaya yatkındır.",
+            "strategy": "Yağ kontrolü, iltihap önleme ve sivilce baskılama.",
+            "priorityNotice": {
+              "type": "Warning",
+              "text": "Cumartesi (Leke Odaklı) ve Salı (Eksfoliasyon) günleri kritik öneme sahiptir. Sivilce sinyalleri için Yeppda Spot Gel ve Olalab Serum desteği alın.",
+              "importantDays": ["Cumartesi", "Salı"]
+            }
+          }
+        ]
