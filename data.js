@@ -6,7 +6,7 @@ const skincareData = {
       { "step": "2", "product": "Foreo BEAR™ 2", "notes": "Aromatica Aloe Vera Gel ile. Mikro akımı iletmek için jeli cömertçe sürün, işlem sonrası durulayın." },
       { "step": "3", "product": "Cosrx Comfort Ceramide Mist", "notes": "Yüze 2-3 fıs. Seramidler, bariyerinizi güne hazırlarken nem kaybını önler." },
       { "step": "4", "product": "Bibimcos Cica Centella Toner", "notes": "Avuca bir miktar, tampon hareketlerle uygulayın." },
-      { "step": "5", "product": "Frankly Heyday Pantenol Serumu", "notes": "2-3 damla. $3\\%$ Pantenol, kızarıklığı baskılamak için en güvenli müttefikinizdir." },
+      { "step": "5", "product": "Frankly Heyday Pantenol Serumu", "notes": "2-3 damla. 3% Pantenol, kızarıklığı baskılamak için en güvenli müttefikinizdir." },
       { "step": "6", "product": "Deoproce Super Berry Göz Kremi", "notes": "Yarım mercimek tanesi." },
       { "step": "7", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Mercimek büyüklüğünde. Yağlı his bırakmadan bariyeri mühürler." },
       { "step": "8", "product": "Dr. Korea Güneş Kremi", "notes": "2 parmak kuralı. Leke tedavisi görüyorsanız bu adım opsiyonel değil, mecburidir." }
@@ -17,7 +17,7 @@ const skincareData = {
       { "step": "3", "product": "Lunova Milk Therapy", "notes": "Süt proteinleri, cildin pH dengesini hızla geri kazandırır." },
       { "step": "4", "product": "Estée Lauder Advanced Night Repair (ANR)", "notes": "2-3 damla. Gece boyu hücresel onarımı tetikler." },
       { "step": "5", "product": "Elensilia Collagen 80 Göz Kremi", "notes": "Yarım mercimek tanesi." },
-      { "step": "6", "product": "Derma Factory Skin Barrier Krem", "notes": "Nohut büyüklüğünde. $59\\%$ Panthenol içeriğiyle 'Reset' gecesinin ana kahramanıdır." }
+      { "step": "6", "product": "Derma Factory Skin Barrier Krem", "notes": "Nohut büyüklüğünde. 59% Panthenol içeriğiyle 'Reset' gecesinin ana kahramanıdır." }
     ]
   },
   "Salı": {
@@ -112,7 +112,7 @@ const skincareData = {
       { "step": "1", "product": "Yağ Bazlı + Pirinç Özlü Jel", "notes": "Temiz içerikli arınma." },
       { "step": "2", "product": "Bibimcos Rice Extract Toner", "notes": "Yatıştırıcı." },
       { "step": "3", "product": "Frankly PDRN Bounce Ball Serum", "notes": "PDRN (Somon DNA), leke izlerinin altındaki doku hasarını onarır." },
-      { "step": "4", "product": "Derma Factory Tranexamic Acid Krem", "notes": "$6\\%$ oranındaki TXA, sivilce lekeleri üzerinde nokta atışı yapar." },
+      { "step": "4", "product": "Derma Factory Tranexamic Acid Krem", "notes": "6% oranındaki TXA, sivilce lekeleri üzerinde nokta atışı yapar." },
       { "step": "5", "product": "Mist veya Derma Factory Beta Krem", "notes": "Opsiyonel nem katmanı." }
     ]
   },
