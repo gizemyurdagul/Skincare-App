@@ -74,9 +74,9 @@ const skincareData = {
     "evening": [
       { "step": "1", "product": "Çift Aşama Temizlik (Yağ + Jel)", "notes": "Cildi tamamen arındırın." },
       { "step": "2", "product": "Avene Eau Thermale + Bibimcos Cica Toner", "notes": "Retinal öncesi sakinleştirici zemin." },
-      { "step": "3 (Sandviç Kat 1)", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "İnce bir tabaka. Retinalin direkt temasını engelleyerek irritasyon riskini minimize eder." },
-      { "step": "4 (Aktif)", "product": "Derma Factory Retinal Cica Ampoule", "notes": "Bezelye büyüklüğünde. Göz ve dudak kenarlarına gelmemesine dikkat edin." },
-      { "step": "5 (Sandviç Kat 2)", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Aktifi hapsetmek için son mühür." }
+      { "step": "3", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "İnce bir tabaka. Retinalin direkt temasını engelleyerek irritasyon riskini minimize eder." },
+      { "step": "4", "product": "Derma Factory Retinal Cica Ampoule", "notes": "Bezelye büyüklüğünde. Göz ve dudak kenarlarına gelmemesine dikkat edin." },
+      { "step": "5", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Aktifi hapsetmek için son mühür." }
     ]
   },
   "Cuma": {
