@@ -124,7 +124,7 @@ const skincareData = {
       { "step": "3", "product": "Cosrx / Maxclinic Mist", "notes": "Maske sonrası ferahlatmak için bolca sıkın." },
       { "step": "4", "product": "The Ordinary Milky Toner", "notes": "Derinlemesine temizlenmiş cilde nem desteği." },
       { "step": "5", "product": "Mary & May Göz Kremi", "notes": "Gece beslemesi." },
-      { "step": "6", "product": "Estee Lauder Revitalizing Supreme Krem", "notes": "Haftayı en güçlü onarımla kapat." }
+      { "step": "6", "product": "Derma Factory Beta-Sitosterol Krem", "notes": "Yapısal lipit takviyesi ve hücreler arası harç onarımı ile rutini kapat." }
     ]
   }
 };
