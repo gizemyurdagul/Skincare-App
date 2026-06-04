@@ -130,33 +130,45 @@ const skincareData = {
 };
 const cycleSyncingData = [
   {
-    "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
-    "strategy": "Yoğun Nemlendirme, Yatıştırma ve Onarım",
-    "skinCondition": "Östrojen ve Progesteron hormonları en düşük seviyededir. Bu keskin düşüş, cilt bariyerinin zayıflamasına ve cildin nem tutma kapasitesinin azalmasına yol açar. Cilt daha mat, kuru, hassas ve enerjisiz görünebilir; irritasyon riski en yüksek seviyededir.",
-    "adaptation": "Bu dönemde <strong>Pazartesi, Cuma ve Pazar</strong> rutinleri ana rehberinizdir. Bariyer sağlığınız için <strong>Retinal (Perşembe) ve TXA (Cumartesi)</strong> gecelerini bu hafta pas geçmek veya sadece sandviç tekniğiyle çok kısıtlı uygulamak bariyer güvenliği için kritiktir. <strong>The Ordinary Milky Toner</strong> ve <strong>Derma Factory Skin Barrier Krem</strong>'i cilde bu fazda bolca boca etmelisiniz."
-  },
-  {
-    "phase": "Faz 2: Foliküler Faz (7-12. Günler)",
-    "strategy": "Aktif Leke Tedavisi, Kolajen Sentezi ve Sıkılaştırma",
-    "skinCondition": "Adet bitimiyle östrojen seviyesi yükselmeye başlar. Cilt kendi kolajenini üretir ve neme doyar. Cildin en parlak, en pürüzsüz ve dış etkenlere karşı en dayanıklı olduğu 'glow' evresidir; aktif içerik toleransı zirvededir.",
-    "adaptation": "Bariyeriniz en güçlü halinde olduğu için <strong>7 günlük haftalık protokolü (Retinal ve TXA dahil) harfiyen uygulamak</strong> için en ideal zamandır. Özellikle Foreo BEAR™ 2 uygulamalarından maksimum verimi ve ışıltıyı bu evrede alırsınız."
-  },
-  {
-    "phase": "Faz 3: Ovülasyon (13-16. Günler)",
-    "strategy": "Derinlemesine Temizlik ve Gözenek Yönetimi",
-    "skinCondition": "Östrojen zirve yapar ve Testosteron yükselişe geçer. Bu hormonal geçiş, sebum (yağ) üretimini aniden tetikleyebilir ve cildin yağ dengesini bozabilir. Gözenekler genişlemeye ve tıkanmaya (siyah nokta/milie) her zamankinden daha meyillidir.",
-    "adaptation": "Gözenek dolmasını önlemek için <strong>Salı (Enzim Peeling)</strong> adımını ve <strong>Pazar (Kil Maskesi)</strong> uygulamasını mutlaka yapın. Artan sebumun aknelere dönmemesi için cildinizi her akşam çift aşamalı iyi temizlediğinizden emin olun."
-  },
-  {
-    "phase": "Faz 4: Luteal Faz (Adet Öncesi 7-10 Gün)",
-    "strategy": "Yağ Kontrolü & Sivilce Önleme",
-    "skinCondition": "Progesteron yükselir, yağ üretimi maksimumdadır. Gözenek tıkanmasına ve akneye en meyilli dönemdir. Cilt daha hassas, iltihaba meyilli ve şişkinlik (ödem) tutmaya yatkındır.",
-    "adaptation": "TO Milky Toner ve Estee Lauder krem gibi ağır ürünleri rutinden çekin. Sabahları sadece su yerine <strong>Luvum Jel</strong> ile yıkayabilirsiniz. <strong>Cica (FRANKLY)</strong> ve <strong>Kil Maskesi (Propia)</strong> bu dönemin kurtarıcılarıdır."
-  },
+        "phase": "Faz 1: Menstrüasyon (1-6. Günler)",
+        "skinCondition": "Östrojen ve Progesteron hormonları en düşük seviyededir. Bu keskin düşüş, cilt bariyerinin zayıflamasına ve cildin nem tutma kapasitesinin azalmasına yol açar. Cilt daha mat, kuru, hassas ve enerjisiz görünebilir; irritasyon riski en yüksek seviyededir.",
+        "strategy": "Yoğun Nemlendirme, Yatıştırma ve Onarım",
+        "adaptation": "Asitleri ve agresif aktifleri kısıtlama dönemi. Bu dönemde <strong>Pazartesi (Bariyer) ve Cuma (Onarım)</strong> rutinleri ana rehberinizdir. Bariyer sağlığınız için Retinal (Perşembe) ve enzim peeling / TXA içeren Eksfoliasyon (Salı) gecelerini bu hafta pas geçmek veya sadece sandviç tekniğiyle çok kısıtlı kullanmak en doğrusudur. Eksilen lipiti ve nemi hızla yerine koymak şarttır. <strong>The Ordinary Milky Toner</strong> ile skualan takviyesi, <strong>Frankly Heyday Serum</strong> ile su bazlı nem ve rutini kapatmak için mutlaka <strong>Aestura Atobarrier 365 Lotion</strong> (veya bitene kadar Derma Factory Beta-Sitosterol) kullanılmalıdır."
+    },
+    {
+        "phase": "Faz 2: Foliküler Faz (7-11. Günler)",
+        "skinCondition": "Östrojen seviyesi yavaş yavaş yükselmeye başlar. Cilt kendini hızla toparlar, kan dolaşımı hızlanır ve hücre yenilenmesi artar. Cildin bariyeri güçlenmiştir. Aktif içerikleri (leke karşıtı, peptit, arbutin, retinal) en iyi tolere ettiği ve emilimin en yüksek olduğu \"altın\" dönemdir.",
+        "strategy": "Canlanma, Aydınlatma ve Aktif Emilimi",
+        "adaptation": "7 günlük haftalık planın tamamını, hiçbir adımı atlamadan ve en güçlü haliyle uygulayabileceğiniz evredir. Gündüzleri aydınlatma için <strong>BOJ Glow Deep Rice</strong> (bitince Elensilia Arbutin) ve <strong>Frankly %5 Niacinamide</strong>. Geceleri hücresel onarım için <strong>Derma Factory Matrixyl %15</strong> (bitince Frankly PDRN). Çarşamba geceleri bu peptit/PDRN adımını <strong>Estee Lauder Revitalizing Supreme</strong> ile mühürlemek maksimum kolajen sentezi sağlar. <strong>Foreo Bear 2</strong> cihazı bu fazda en verimli lifting sonucunu verir."
+    },
+    {
+        "phase": "Faz 3: Ovülasyon (12-14. Günler)",
+        "skinCondition": "Östrojen zirvededir, cilt döngünün en parlak ve pürüzsüz halindedir. Ancak bu 3-4 günlük kısa dönemin sonuna doğru luteinleştirici hormon (LH) artar ve progesteron sahneye çıkmaya hazırlanır. Bu da gözeneklerin yavaşça genişlemeye ve yağ (sebum) üretiminin sinyal vermeye başlaması demektir.",
+        "strategy": "Maksimum Işıltı ve Yaklaşan Tehlikeye Hazırlık (Geçiş Dönemi)",
+        "adaptation": "Cildin parlaklığını korurken, ufaktan sivilce ve yağlanma kontrolüne geçiş yapma vaktidir. Bu dönem \"bıçak sırtı\" bir geçiş evresidir. Gözenekleri temiz tutmak için Pazar günkü <strong>Propia Kırmızı Kil Maskesi</strong> ritüelini mutlaka bu kısa döneme denk getirin. Sıcak ve nemli sabahlar cilde ağır gelmeye başlarsa kremleri atlayıp direkt <strong>Lunova Jel Serum</strong> ile güneş kremine geçiş yapabilirsiniz. Ağır lipitli ürünleri dönemin ilk günlerinde (12-13. günler) normal haftalık rutindeki gibi kullanabilirsiniz. Ancak dönemin sonuna (14. güne) yaklaşırken yüzünüzde ufak bir parlama veya gözenek belirginleşmesi hissettiğiniz an bu ürünlerle tamamen vedalaşarak yerlerini <strong>LUVUM Bamboo Cream, Skin1004 Pad, Village 11 ve Frankly %80 Cica</strong> gibi saf su bazlı alternatiflere bırakmalısınız."
+    },
+    {
+        "phase": "Faz 4: Luteal Faz (15-28. Günler)",
+        "skinCondition": "Progesteron hormonu zirvededir. Cilt kendi yağını (sebum) aşırı üretir, gözenekler tıkanmaya, şişmeye ve sivilce üretmeye çok müsaittir. Sıcak ve nemli havayla birleştiğinde cilt ağırlaşır, terler. Cildin ekstra lipite (yağa) ve \"tuğla harcına\" ihtiyacı KESİNLİKLE YOKTUR.",
+        "strategy": "Sebum Kontrolü, Yangı Söndürme ve Sıfır Lipit",
+        "adaptation": "Tam bir \"Detoks ve Yangı Söndürme\" kampı. Gözenek tıkayacak tüm ağır kremleri, lipit bazlı tonikleri ve süt formlarını dolaba kaldırıyoruz. <strong>Propia Kırmızı Kil Maskesi</strong> bu dönemde haftada 2'ye (Çarşamba ve Pazar) çıkarılmalıdır. Bu uzun fazın tek ve ana nemlendiricisi sadece su ve bambu içeren <strong>LUVUM Bamboo Cream</strong> olmalıdır. Isı artışını ve hormonal sivilceyi başlamadan dondurmak için buzdolabında bekletilmiş <strong>Skin1004 Centella Pad</strong> ve <strong>FRANKLY %80 Cica Tonik</strong> sabah-akşam rutin kurtarıcısıdır. Sebum kontrolü için <strong>Frankly %5 Niacinamide</strong> bu evrenin yıldızıdır."
+    },
   {
     "phase": "🚨 Ekstra: Joker Ürün Bilgisi (Lunova)",
     "strategy": "Acil Durum Onarımı",
     "skinCondition": "Bariyer zayıflığı, aşırı kuruluk veya irritasyon hissedildiği kriz anları için.",
     "adaptation": "Lunova Milk Therapy Serum'u peptitlerle çakışmaması için Matrixyl günlerinde (Çarşamba) kullanmayın. Onu, cildinizin ekstra kuruduğu akşamlarında tonik sonrası bariyer desteği olarak rutine ek <strong>joker ürün</strong> gibi kullanabilirsiniz."
+  },
+  {
+    "phase": "🚨 Ekstra: Joker Ürün Bilgisi (Frankly Gözenek Pedi)",
+    "strategy": "Gözenek Arındırma ve Sebum Kontrolü",
+    "skinCondition": "Gözeneklerin dolduğu, yağlanmanın ve siyah noktaların arttığı anlar için.",
+    "adaptation": "Normal döngüde sadece Pazar sabahları rutin arındırma için kullanın. Gözeneklerin genişleyip sebumun tavan yaptığı Faz 4 (Luteal Faz) krizlerinde ise kullanımını Çarşamba ve Pazar sabahları olmak üzere haftada 2'ye çıkararak sebumu baskılayın."
+  },
+  {
+    "phase": "🚨 Ekstra: Joker Ürün Bilgisi (EditB Cica Trouble Pad)",
+    "strategy": "Bölgesel Sivilce Müdahalesi ve Hızlı Silme",
+    "skinCondition": "Lokal sivilcelenme, T bölgesi parlaması veya aktif akne krizleri için.",
+    "adaptation": "Formülasyonu hassas dönemlerde ciltte bekletmek için ağır/asidik gelebilir. Maske gibi yüzünüzde tutmayın; sadece aktif sivilce veya burun üzerine bölgesel (spot) uygulayın ya da tüm yüzünüzü hızlıca silip atın. Çarşamba sabahları veya anlık sivilce krizlerinde bölgesel joker olarak kullanın."
   }
 ]
