@@ -176,4 +176,123 @@ const cycleSyncingData = [
     "skinCondition": "Mistler ve padler yardımcı ürünlerdir; aynı rutinde birkaç mist + birkaç tonik + birkaç pad katmanlamak gerekli değildir.",
     "adaptation": "Ana mist <strong>COSRX Ceramide</strong>; Avene Thermal Water ihtiyaç halinde alternatif. Lunova veya Maxclinic keyif/rotasyon ürünü. Avene Cicalfate Spray günlük nem misti gibi kullanılmasın. Pad kullanacağın gün ayrıca tonik şart değil. Luvum Witch Hazel Pad kuru/hassas günlerde öncelik değil."
   }
+  
 ];
+(() => {
+  const serum = "Torriden DIVE-IN Serum";
+  const cream = "Bioderma Atoderm Intensive Eye";
+  const mist = "Anua PDRN Mist";
+  const spray = "Purito HOCl Sprey (isteğe bağlı)";
+
+  const updateNames = (text) => text
+    .replace(/Frankly Heyday Serum|Frankly Heyday|Heyday/g, serum)
+    .replace(
+      /Derma Factory Beta-Sitosterol %3|Beta-Sitosterol %3|Beta-Sitosterol/g,
+      cream
+    );
+
+  // Ürün adlarını ve notlardaki eski referansları güncelle.
+  Object.values(skincareData).forEach((day) => {
+    ["morning", "evening"].forEach((period) => {
+      day[period].forEach((item) => {
+        item.product = updateNames(item.product);
+        item.notes = updateNames(item.notes);
+
+        if (item.product === serum) {
+          item.notes =
+            "Nem desteği için ince bir kat uygula; hafif nemli ciltte kullanılabilir. Ardından ihtiyacına göre nemlendirici ve sabah güneş kremi.";
+        }
+      });
+    });
+  });
+
+  // Anua: mevcut nem misti adımlarına yerleşir.
+  // COSRX ve Avene alternatif olarak kalır.
+  Object.values(skincareData).forEach((day) => {
+    ["morning", "evening"].forEach((period) => {
+      day[period].forEach((item) => {
+        if (/COSRX.*Mist|Avene Thermal Water/i.test(item.product)) {
+          item.product = mist;
+          item.notes =
+            "İsteğe bağlı nem katmanı. Gözlerini kapatıp şişedeki talimata göre uygula. COSRX Ceramide Mist veya Avene bunun yerine seçilebilir; üst üste kullanmak gerekmez.";
+        }
+      });
+    });
+  });
+
+  // Anua kullanılan sabahlarda ayrıca tonik zorunlu değildir.
+  ["Pazartesi", "Salı", "Perşembe"].forEach((dayName) => {
+    const toner = skincareData[dayName].morning.find(
+      (item) => item.product === "Frankly Cica 80 & HA Toner"
+    );
+
+    if (toner) {
+      toner.notes =
+        "Anua mist yeterli nem veriyorsa atla. Mist kullanmadıysan veya ek neme ihtiyaç varsa tek ince kat uygula.";
+    }
+  });
+
+  // Purito: sabah temizliğinden sonra, nem ürünlerinden önce.
+  // Her sabah kullanmak zorunlu değildir.
+  Object.values(skincareData).forEach((day) => {
+    if (!day.morning.some((item) => item.product === spray)) {
+      day.morning.splice(1, 0, {
+        step: "",
+        product: spray,
+        notes:
+          "İhtiyaç varsa temiz cilde, gözler kapalıyken 10–20 cm uzaktan uygula. Kurumasını bekleyip tonik/mist ve seruma geç. Nem mistinin yerine geçmez. Tahrişli, çatlak veya yaralı ciltte kullanma; batma yaparsa bırak."
+      });
+    }
+  });
+
+  // Bioderma burada yüz nemlendiricisi olarak kullanılıyor.
+  const setEveningMoisturizer = (dayName, product, notes) => {
+    const routine = skincareData[dayName].evening;
+    Object.assign(routine[routine.length - 1], { product, notes });
+  };
+
+  setEveningMoisturizer(
+    "Pazartesi",
+    "Aestura Atobarrier Lotion / " + cream,
+    "Cilt normal hissediyorsa Aestura; daha yoğun nem gerekiyorsa Bioderma'yı yüzüne ince kat uygula. Birini seç."
+  );
+
+  setEveningMoisturizer(
+    "Perşembe",
+    "Aestura Lotion / " + cream,
+    "Retinal sonrası tek nemlendirici seç. Daha yoğun nem gerekiyorsa Bioderma'yı yüzüne ince kat; normal hissediyorsa Aestura kullan."
+  );
+
+  setEveningMoisturizer(
+    "Cuma",
+    cream,
+    "Yüz nemlendiricisi olarak ince kat uygula. Ağır gelirse Aestura'yı seç. Kalan Derma Factory Beta-Sitosterol %3 bitene kadar bunun yerine kullanılabilir; ikisini üst üste sürmek gerekmez."
+  );
+
+  setEveningMoisturizer(
+    "Pazar",
+    "Aestura Lotion / " + cream,
+    "Kuruluk seviyene göre birini seç. Daha yoğun nem için Bioderma'yı yüzüne ince kat uygula."
+  );
+
+  // Döngü rehberini de güncel ürünlerle eşleştir.
+  cycleSyncingData.forEach((phase) => {
+    phase.adaptation = updateNames(phase.adaptation);
+
+    if (phase.phase === "🚨 Joker: Mist & Pad Seçimi") {
+      phase.adaptation =
+        "Nem misti olarak <strong>Anua PDRN Mist</strong>; COSRX Ceramide veya Avene alternatif. Anua yeterliyse ayrıca tonik şart değil. " +
+        "<strong>Purito HOCl</strong> ayrı, isteğe bağlı bir adımdır: temizleme sonrası uygula, kuruyunca nem ürünlerine geç. Tahrişli, çatlak veya yaralı ciltte kullanma. " +
+        "Pad kullanılan gün ayrıca tonik şart değil. Lunova veya Maxclinic rotasyonda kalabilir. Avene Cicalfate Spray günlük nem misti gibi kullanılmasın. Luvum Witch Hazel Pad kuru/hassas günlerde öncelik değil.";
+    }
+  });
+
+  // Adım numaralarını yeniden sırala.
+  Object.values(skincareData).forEach((day) => {
+    ["morning", "evening"].forEach((period) => {
+      day[period].forEach((item, index) => {
+        item.step = String(index + 1);
+      });
+    });
+  });
+})();
